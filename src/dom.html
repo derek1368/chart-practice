@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div ref="app" id="app">hello</div>
+    <script>
+        var divElement = document.getElementById('app'); // javascript dom 접근 방법
+        var divElement = document.querySelector('#app'); // javascript dom 접근 방법
+        var divElement = $('#app'); // jQuery dom 접근 방법
+        var divElement = this.$refs.app; // vue dom 접근 방법
+    </script>
+</body>
+</html>
